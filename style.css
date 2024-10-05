@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color:  #F9F9F9;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1720px;
+    margin: 0 auto;
+}
+.nav-link{
+    font-size: 20px;
+    color: #707070;
+    margin-right: 80px;
+}
+.header-flex{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    padding: 41px 0;
+}
+.hero-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 114px 0;
+}
+.hero-wrap{
+    width: 580px;
+}
+.hero-title{
+    color: #779611;
+    font-size: 48px;
+}
+.hero-text{
+    font-size: 24px;
+}
+button{
+    background-color: #779611;
+    color: #F9F9F9;
+    padding: 18px 70px;
+    font-size: 32px;
+    border-radius: 40px;
+    border: none;
+}
+.hero{
+    border-top: 2px solid #779611;
+    border-bottom: 2px solid #779611;
+}
+.shop-title{
+    font-size: 36px;
+    color: #779611;
+    margin-top: 80px;
+}
+.shop-text{ 
+    font-size: 20px;
+}
+.shop-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shop-item h3{
+    font-size: 24px;
+    color: #779611;
+}
+.shop-item p{
+    font-size: 20px;
+}
+.footer-flex{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.38px;
+text-align: left;
+display: flex;
+justify-content: space-between;
+}
